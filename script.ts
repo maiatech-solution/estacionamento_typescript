@@ -22,6 +22,8 @@ interface Veiculo {
                 <button class="delete" data-placa="${veiculo.placa}">X</button>
             </td>
             `;
+
+            $("#patio")?.appendChild(row);
         }
 
         function remover() { }
