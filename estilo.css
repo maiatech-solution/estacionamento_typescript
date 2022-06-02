@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+}
+.container{
+    display: flex;
+    width: 70%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+table{
+    margin-top: 30px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+table th{
+    border: 1px solid gray;
+}
+
+table thead{
+    border: 1px solid gray;
+}
+
+table td{
+    border: 1px solid gray;
+}
